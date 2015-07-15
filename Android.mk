@@ -3,6 +3,7 @@ include $(CLEAR_VARS)
 
 LOCAL_JAVA_LIBRARIES := bouncycastle# telephony-common
 LOCAL_STATIC_JAVA_LIBRARIES := guava android-support-v4 jsr305
+LOCAL_JNI_SHARED_LIBRARIES := libRTC
 
 LOCAL_MODULE_TAGS := optional
 
